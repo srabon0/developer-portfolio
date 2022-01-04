@@ -1,2 +1,47 @@
 /* Developer Portfolio CSS /*
 /* Author : Srabon */
+body{
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+   
+}
+section{
+    display: flex;
+}
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+}
+h3{
+    color: #5f2d5f;
+    text-shadow: 2px black;
+}
+.dev-name{
+    color:#5f2d5f;
+    font-weight: 800;
+    text-shadow:3px black;
+}
+.half-width{
+    width: 50%;
+    padding: 40px;
+}
+.half-width img{
+    width: 80%;
+
+}
+.hire-button{
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    background-color: #5f2d5f;
+    font-weight: 500;
+    border-radius: 15px 2px 15px 2px;
+}
